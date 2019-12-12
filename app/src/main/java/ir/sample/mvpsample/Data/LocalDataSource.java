@@ -11,4 +11,19 @@ public class LocalDataSource implements NewsDataSource
     {
         return null;
     }
+
+    @Override
+    public Single<List<News>> getBanners() {
+        return null;
+    }
+
+    @Override
+    public Single<List<News>> getLastNews() {
+        return null;
+    }
+
+    @Override
+    public Single<List<News>> getSavedNews() {
+        return null;
+    }
 }

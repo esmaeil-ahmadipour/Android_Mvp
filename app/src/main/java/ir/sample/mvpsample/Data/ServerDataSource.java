@@ -13,8 +13,9 @@ public class ServerDataSource implements NewsDataSource
 
     public ServerDataSource()
     {
+// Config Retrofit
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("")
+                .baseUrl("http://192.168.56.1/mvp/")
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
@@ -24,6 +25,22 @@ public class ServerDataSource implements NewsDataSource
     @Override
     public Single<List<News>> getNews()
     {
+// Send Request To Server.
         return apiService.getNews();
+    }
+
+    @Override
+    public Single<List<News>> getBanners() {
+        return null;
+    }
+
+    @Override
+    public Single<List<News>> getLastNews() {
+        return null;
+    }
+
+    @Override
+    public Single<List<News>> getSavedNews() {
+        return null;
     }
 }
