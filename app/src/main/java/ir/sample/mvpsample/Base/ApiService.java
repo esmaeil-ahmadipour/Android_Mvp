@@ -7,6 +7,6 @@ import retrofit2.http.GET;
 
 public interface ApiService
 {
-    @GET("")
+    @GET("news.php")
     Single<List<News>> getNews();
 }
