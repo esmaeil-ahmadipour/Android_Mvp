@@ -3,4 +3,19 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <!-- Custom Colors -->
+    <color name="Orange300">#FFB74D</color>
+    <color name="Yellow300">#FFF176</color>
+    <color name="Green300">#81C784</color>
+    <color name="BlueGray300">#90A4AE</color>
+    <color name="Gray300">#E0E0E0</color>
+    <color name="Red300">#E57373</color>
+    <color name="Blue300">#64B5F6</color>
+    <color name="Black">#000000</color>
+    <color name="White">#FFFFFF</color>
+    <color name="GoogleBlue">#4285F4</color>
+    <color name="GoogleRed">#EA4335</color>
+    <color name="GoogleYellow">#FBBC05</color>
+    <color name="GoogleGreen">#34A853</color>
+
 </resources>

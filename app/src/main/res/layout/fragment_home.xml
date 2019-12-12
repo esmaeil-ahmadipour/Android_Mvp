@@ -3,4 +3,37 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_fragmentHome_slider"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+    </ImageView>
+
+    <RelativeLayout
+        android:id="@+id/rl_fragmentHome_lastNews"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:textColor="@color/GoogleGreen"
+            android:text="آخرین اخبار"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textColor="@color/BlueGray300"
+            android:text="همه"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_fragmentHome_lastNews"
+        android:layout_below="@+id/rl_fragmentHome_lastNews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.recyclerview.widget.RecyclerView>
 </RelativeLayout>
