@@ -25,13 +25,14 @@ public class ServerDataSource implements NewsDataSource
     @Override
     public Single<List<News>> getNews()
     {
-// Send Request To Server.
+// Send Request To Server (For Get News And Create NewsList).
         return apiService.getNews();
     }
 
     @Override
-    public Single<List<News>> getBanners() {
-        return null;
+    public Single<List<Banner>> getBanners() {
+// Send Request To Server (For Get Banners And Create BannerList).
+        return apiService.getBanners();
     }
 
     @Override

@@ -13,7 +13,7 @@ public class LocalDataSource implements NewsDataSource
     }
 
     @Override
-    public Single<List<News>> getBanners() {
+    public Single<List<Banner>> getBanners() {
         return null;
     }
 

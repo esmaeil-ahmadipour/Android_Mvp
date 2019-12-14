@@ -10,7 +10,7 @@ import androidx.fragment.app.Fragment;
 
 public abstract class BaseFragment extends Fragment
 {
-    private View rootView;
+    public View rootView;
 
     @Nullable
     @Override

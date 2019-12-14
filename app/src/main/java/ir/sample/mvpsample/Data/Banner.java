@@ -1,6 +1,8 @@
 package ir.sample.mvpsample.Data;
 
 public class Banner {
+    //Data Model Banner
+
     private String id;
     private String url;
 
@@ -12,9 +14,11 @@ public class Banner {
     public void setUrl(String url) {
         this.url = url;
     }
+
     public String getUrl() {
         return url;
     }
+
     public String getId() {
         return id;
     }

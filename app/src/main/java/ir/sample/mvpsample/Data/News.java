@@ -2,6 +2,7 @@ package ir.sample.mvpsample.Data;
 
 public class News
 {
+    //Data Model News
     private  String id;
     private String title;
     private String description;

@@ -9,12 +9,14 @@ public class NewsRepository implements NewsDataSource {
 
     @Override
     public Single<List<News>> getNews() {
+//Pass Received Data From ServerDataSource By Method getNews();
         return serverDataSource.getNews();
     }
 
     @Override
-    public Single<List<News>> getBanners() {
-        return null;
+    public Single<List<Banner>> getBanners() {
+//Pass Received Data From ServerDataSource By Method getBanners();
+        return serverDataSource.getBanners();
     }
 
     @Override

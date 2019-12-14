@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Mvp Sample</string>
+    <string name="top_news">خبر برتر</string>
+    <string name="categories">دسته بندی ها</string>
+    <string name="search">جستجو</string>
+    <string name="news">اخبار</string>
+    <string name="view_lastNews">آخرین اخبار</string>
+    <string name="view_allNews">همه</string>
+
+    <!-- Test Strings -->
+    <string name="test_number">0</string>
+    <string name="test_loading">Loading Data</string>
+    <string name="test_datePublished">تاریخ انتشار</string>
+    <string name="test_newsSource">منبع خبر</string>
+    <string name="test_imageContent">Loading Data</string>
+    <string name="test_newsTitle">عنوان خبر</string>
+
+
 </resources>

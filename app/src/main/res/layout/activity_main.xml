@@ -9,12 +9,12 @@
     <com.ss.bottomnavigation.BottomNavigation
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
-        android:layout_height="56dp"
+        android:layout_height="@dimen/bottomNavDimen_normal"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:background="@color/White"
-        android:elevation="4dp"
+        android:elevation="@dimen/elevationDimen_normal"
         app:mode="phone">
 
         <com.ss.bottomnavigation.TabItem
@@ -23,8 +23,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             app:tab_icon="@drawable/ic_news_black_24dp"
-            app:tab_text="اخبار"
-            app:tab_text_color="@color/GoogleGreen"
+            app:tab_text="@string/news"
+            app:tab_text_color="@color/BlueGray300"
             app:unselected_tab_icon="@drawable/ic_news_gray300_24dp"
             app:unselected_tab_text_color="@color/Gray300" />
 
@@ -34,8 +34,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             app:tab_icon="@drawable/ic_search_black_24dp"
-            app:tab_text="جستجو"
-            app:tab_text_color="@color/GoogleGreen"
+            app:tab_text="@string/search"
+            app:tab_text_color="@color/BlueGray300"
             app:unselected_tab_icon="@drawable/ic_search_gray300_24dp"
             app:unselected_tab_text_color="@color/Gray300" />
 
@@ -45,8 +45,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             app:tab_icon="@drawable/ic_categories_black_24dp"
-            app:tab_text="دسته بندی"
-            app:tab_text_color="@color/GoogleGreen"
+            app:tab_text="@string/categories"
+            app:tab_text_color="@color/BlueGray300"
             app:unselected_tab_icon="@drawable/ic_categories_gray300_24dp"
             app:unselected_tab_text_color="@color/Gray300" />
 
@@ -56,8 +56,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             app:tab_icon="@drawable/ic_top_news_black_24dp"
-            app:tab_text="خبر برتر"
-            app:tab_text_color="@color/GoogleGreen"
+            app:tab_text="@string/top_news"
+            app:tab_text_color="@color/BlueGray300"
             app:unselected_tab_icon="@drawable/ic_top_news_gray300_24dp"
             app:unselected_tab_text_color="@color/Gray300" />
     </com.ss.bottomnavigation.BottomNavigation>

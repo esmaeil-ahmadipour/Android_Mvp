@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SpaceSize -->
+    <dimen name="spaceDimen_1">2dp</dimen>
+    <dimen name="spaceDimen_2">4dp</dimen>
+    <dimen name="spaceDimen_3">8dp</dimen>
+    <dimen name="spaceDimen_4">16dp</dimen>
+    <dimen name="spaceDimen_5">24dp</dimen>
+    <dimen name="spaceDimen_6">32dp</dimen>
+    <dimen name="spaceDimen_7">48dp</dimen>
+    <dimen name="spaceDimen_8">64dp</dimen>
+    <dimen name="spaceDimen_9">96dp</dimen>
+
+    <!-- ObjectSize -->
+    <dimen name="objectDimen_1">48dp</dimen>
+    <dimen name="objectDimen_2">64dp</dimen>
+    <dimen name="objectDimen_3">96dp</dimen>
+    <dimen name="objectDimen_4">128dp</dimen>
+    <dimen name="objectDimen_5">160dp</dimen>
+    <dimen name="objectDimen_6">192dp</dimen>
+
+
+    <!-- ElevationSize -->
+    <dimen name="elevationDimen_normal">4dp</dimen>
+
+    <!-- FontSizeSize -->
+    <dimen name="fontSizeDimen_normal">4dp</dimen>
+
+    <!-- DividerSize -->
+    <dimen name="dividerDimen_normal">1dp</dimen>
+
+    <!-- BottomNavigatorSize -->
+    <dimen name="bottomNavDimen_normal">56dp</dimen>
+
+    <!-- MaxLines Of TextView -->
+    <integer name="maxLinesDimen_normal">2</integer>
+
+
+</resources>
