@@ -19,6 +19,13 @@
     <dimen name="objectDimen_5">160dp</dimen>
     <dimen name="objectDimen_6">192dp</dimen>
 
+    <!-- FontSize -->
+    <dimen name="fontDimen_1">8sp</dimen>
+    <dimen name="fontDimen_2">12sp</dimen>
+    <dimen name="fontDimen_3">16sp</dimen>
+    <dimen name="fontDimen_4">20sp</dimen>
+    <dimen name="fontDimen_5">32sp</dimen>
+    <dimen name="fontDimen_6">48sp</dimen>
 
     <!-- ElevationSize -->
     <dimen name="elevationDimen_normal">4dp</dimen>

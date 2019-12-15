@@ -1,49 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/rl_fragmentHome_slider"
+
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nsv_fragmentHome_toolbar"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/img_fragmentHome_slider"
+    <LinearLayout
+        android:id="@+id/lil_fragmentHome_toolbar"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/objectDimen_4"
-        android:background="@color/BlueGray300"
-        android:contentDescription="@string/test_imageContent">
-    </ImageView>
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <RelativeLayout
-        android:layout_below="@id/img_fragmentHome_slider"
-        android:id="@+id/rl_fragmentHome_lastNews"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/Gray300"
-        android:padding="@dimen/spaceDimen_3">
+        <RelativeLayout
+            android:id="@+id/rl_fragmentHome_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/txt_fragmentHome_lastNews"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_toEndOf="@id/txt_fragmentHome_allNews"
-            android:text="@string/view_lastNews"
-            android:textColor="@color/BlueGray300" />
+            <ImageView
+                android:id="@+id/img_fragmentHome_slider"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/objectDimen_4"
+                android:background="@color/BlueGray300"
+                android:contentDescription="@string/test_imageContent" />
 
-        <TextView
-            android:id="@+id/txt_fragmentHome_allNews"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:text="@string/view_allNews"
-            android:textColor="@color/BlueGray300" />
-    </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_fragmentHome_lastNews"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_fragmentHome_slider"
+                android:background="@color/Gray300"
+                android:padding="@dimen/spaceDimen_3">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_fragmentHome_lastNews"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/rl_fragmentHome_lastNews">
+                <TextView
+                    android:id="@+id/txt_fragmentHome_lastNews"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_toEndOf="@id/txt_fragmentHome_allNews"
+                    android:text="@string/view_lastNews"
+                    android:textColor="@color/BlueGray300" />
 
-    </androidx.recyclerview.widget.RecyclerView>
-</RelativeLayout>
+                <TextView
+                    android:id="@+id/txt_fragmentHome_allNews"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:text="@string/view_allNews"
+                    android:textColor="@color/BlueGray300" />
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_fragmentHome_lastNews"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl_fragmentHome_lastNews">
+
+            </androidx.recyclerview.widget.RecyclerView>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

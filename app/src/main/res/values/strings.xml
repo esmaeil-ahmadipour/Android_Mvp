@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Mvp Sample</string>
+    <string name="app_name">آخرین خبر</string>
     <string name="top_news">خبر برتر</string>
     <string name="categories">دسته بندی ها</string>
     <string name="search">جستجو</string>
@@ -10,6 +10,7 @@
     <!-- Test Strings -->
     <string name="test_number">0</string>
     <string name="test_loading">Loading Data</string>
+    <string name="test_description">محتوای خبری</string>
     <string name="test_datePublished">تاریخ انتشار</string>
     <string name="test_newsSource">منبع خبر</string>
     <string name="test_imageContent">Loading Data</string>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#FF9800</color>
+    <color name="colorPrimaryDark">#FF1100</color>
+    <color name="colorAccent">#2196F3</color>
     <!-- Custom Colors -->
+    <color name="Transparent">#00000000</color>
     <color name="Orange300">#FFB74D</color>
     <color name="Yellow300">#FFF176</color>
     <color name="Green300">#81C784</color>

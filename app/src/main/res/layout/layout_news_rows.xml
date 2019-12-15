@@ -2,6 +2,7 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_newsRows_parent"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/spaceDimen_3"
@@ -19,7 +20,6 @@
             android:layout_alignParentEnd="true"
             android:contentDescription="@string/test_imageContent"
             tools:src="@mipmap/ic_launcher" />
-
 
         <TextView
             android:id="@+id/txt_newsRows_date"
@@ -109,7 +109,6 @@
                 android:layout_toEndOf="@id/txt_newsRows_categories"
                 android:contentDescription="@string/test_imageContent"
                 app:srcCompat="@drawable/ic_bookmark_gray300_24dp" />
-
 
         </RelativeLayout>
     </RelativeLayout>
