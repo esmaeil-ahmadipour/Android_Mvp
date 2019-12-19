@@ -25,9 +25,13 @@
 
 
 <!-- CustomFont -->
-    <style name="customFont" parent="android:Widget.TextView">
+    <style name="customFont1" parent="android:Widget.TextView">
         <item name="android:fontFamily">@font/fa_casa</item>
     </style>
-
+    <style name="customFont2" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/fa_iransans_bold</item>
+    </style>
+    <style name="defaultFont" parent="android:Widget.TextView">
+    </style>
 
 </resources>

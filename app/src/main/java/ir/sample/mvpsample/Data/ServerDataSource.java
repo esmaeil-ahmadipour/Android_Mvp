@@ -2,7 +2,6 @@ package ir.sample.mvpsample.Data;
 
 import java.util.List;
 import io.reactivex.Single;
-import ir.sample.mvpsample.Base.ApiService;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
@@ -36,6 +35,12 @@ public class ServerDataSource implements NewsDataSource
     }
 
     @Override
+    public Single<List<Categories>> getCategories() {
+// Send Request To Server (For Get Categories And Create CategoriesList).
+        return apiService.getCategories();
+    }
+
+    @Override
     public Single<List<News>> getLastNews() {
         return null;
     }
@@ -43,5 +48,11 @@ public class ServerDataSource implements NewsDataSource
     @Override
     public Single<List<News>> getSavedNews() {
         return null;
+    }
+
+    @Override
+    public Single<List<News>> getSearchedNews(String searchedString) {
+// Send Request To Server (For Get Categories And Create CategoriesList).
+        return apiService.getSearchedNews(searchedString);
     }
 }

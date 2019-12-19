@@ -6,6 +6,7 @@
     <string name="news">اخبار</string>
     <string name="view_lastNews">آخرین اخبار</string>
     <string name="view_allNews">همه</string>
+    <string name="not_found">موردی پیدا نشد</string>
 
     <!-- Test Strings -->
     <string name="test_number">0</string>

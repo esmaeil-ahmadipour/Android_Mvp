@@ -27,6 +27,16 @@
     <dimen name="fontDimen_5">32sp</dimen>
     <dimen name="fontDimen_6">48sp</dimen>
 
+    <!-- Shape Size -->
+    <dimen name="shapeDimen_1">1dp</dimen>
+    <dimen name="shapeDimen_2">2dp</dimen>
+    <dimen name="shapeDimen_3">4dp</dimen>
+    <dimen name="shapeDimen_4">8dp</dimen>
+    <dimen name="shapeDimen_5">16dp</dimen>
+    <dimen name="shapeDimen_6">32dp</dimen>
+    <dimen name="shapeDimen_7">48dp</dimen>
+    <dimen name="shapeDimen_8">64dp</dimen>
+
     <!-- ElevationSize -->
     <dimen name="elevationDimen_normal">4dp</dimen>
 

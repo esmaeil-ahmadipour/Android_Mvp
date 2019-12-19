@@ -20,6 +20,13 @@ public class NewsRepository implements NewsDataSource {
     }
 
     @Override
+    public Single<List<Categories>> getCategories() {
+//Pass Received Data From ServerDataSource By Method getCategories();
+        return serverDataSource.getCategories();
+    }
+
+
+    @Override
     public Single<List<News>> getLastNews() {
         return null;
     }
@@ -28,4 +35,12 @@ public class NewsRepository implements NewsDataSource {
     public Single<List<News>> getSavedNews() {
         return null;
     }
+
+    @Override
+    public Single<List<News>> getSearchedNews(String searchString) {
+//Pass Received Data From ServerDataSource By Method getSearchedNews();
+        return serverDataSource.getSearchedNews(searchString);
+    }
+
+
 }

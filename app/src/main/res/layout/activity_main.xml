@@ -18,7 +18,7 @@
         app:mode="phone">
 
         <com.ss.bottomnavigation.TabItem
-            android:id="@+id/tab_news"
+            android:id="@+id/tab_home"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
